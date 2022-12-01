@@ -17,3 +17,8 @@ To measure execution time for a particular day, use:
 ```sh
 cargo run --release -- --day <day> benchmark --number <number> --current
 ```
+
+## [Day 01: Not Quite Lisp](https://adventofcode.com/2015/day/1)
+
+part 2: reply once reached
+[Code](./src/solutions/day01.rs)
