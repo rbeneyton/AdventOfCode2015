@@ -27,3 +27,9 @@ part 2: reply once reached
 
 70µs per part.
 [Code](./src/solutions/day02.rs)
+
+## [Day 03: Perfectly Spherical Houses in a Vacuum](https://adventofcode.com/2015/day/3)
+
+maybe a simple 2D bool grid is more efficient than a dump hashset.
+120/150µs per part.
+[Code](./src/solutions/day03.rs)
