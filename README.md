@@ -22,3 +22,8 @@ cargo run --release -- --day <day> benchmark --number <number> --current
 
 part 2: reply once reached
 [Code](./src/solutions/day01.rs)
+
+## [Day 02: I Was Told There Would Be No Math](https://adventofcode.com/2015/day/2)
+
+70µs per part.
+[Code](./src/solutions/day02.rs)
