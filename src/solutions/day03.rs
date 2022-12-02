@@ -14,3 +14,28 @@ pub fn solve(part: u8, input: &'static str) -> Solution {
         Solution::I64(0)
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn part_1_sample() {
+        assert_eq!(solve(1, r"..."), Solution::U64(0));
+    }
+
+    #[test]
+    fn part_1() {
+        assert_eq!(solve(1, ""), Solution::U64(0));
+    }
+
+    #[test]
+    fn part_2_sample() {
+        assert_eq!(solve(2, r"..."), Solution::U64(0));
+    }
+
+    #[test]
+    fn part_2() {
+        assert_eq!(solve(2, ""), Solution::U64(0));
+    }
+}
